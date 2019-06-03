@@ -1,0 +1,139 @@
+._ul,
+._li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.wrapper {
+  padding-top: 40rpx;
+}
+.title {
+  margin: 30rpx 20rpx 20rpx 20rpx;
+  font-weight: bold;
+  font-size: 40rpx;
+}
+.sub-title {
+  margin: 20rpx;
+  font-weight: bold;
+  font-size: 32rpx;
+}
+.wrapper {
+  padding-bottom: 20rpx;
+}
+._img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.date-weekday {
+  margin: 20rpx;
+  color: #999;
+  font-size: 28rpx;
+}
+.swiper-banner {
+  width: 100%;
+  height: 440rpx;
+  background-color: aliceblue;
+}
+.swiper-banner .swiper-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.recent-hot {
+  width: 100%;
+  white-space: nowrap;
+}
+.recent-hot .scroll-view-item {
+  display: inline-block;
+  margin-left: 20rpx;
+  width: 200rpx;
+  text-align: center;
+}
+.recent-hot .scroll-view-item:last-child {
+  margin-right: 20rpx;
+}
+.recent-hot .cover {
+  position: relative;
+  width: 200rpx;
+  height: 270rpx;
+  background-color: aliceblue;
+}
+.recent-hot .name {
+  width: 200rpx;
+  line-height: 40rpx;
+  margin-top: 10rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  text-align: left;
+}
+.recent-hot .score {
+  line-height: 32rpx;
+  font-size: 24rpx;
+  color: #999;
+  text-align: left;
+}
+.new-trailer {
+  padding: 0 10rpx;
+}
+.new-trailer .video-item {
+  position: relative;
+  display: inline-block;
+  margin: 0 10rpx;
+  width: 345rpx;
+  height: 220rpx;
+  background-color: #F0F8FF;
+}
+.uLike-film {
+  padding: 0 20rpx;
+}
+.uLike-film .uLike-film-item {
+  position: relative;
+  margin-bottom: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.uLike-film .film-cover {
+  position: relative;
+  width: 200rpx;
+  height: 270rpx;
+  background-color: #F0F8FF;
+  border-radius: 10rpx;
+}
+.uLike-film .film-info {
+  margin: 20rpx 0;
+  padding-left: 20rpx;
+  width: 492rpx;
+  height: 224rpx;
+  border: 2rpx solid #f5f5f5;
+  border-left: none;
+  border-top-right-radius: 10rpx;
+  border-bottom-right-radius: 10rpx;
+}
+.uLike-film .name {
+  margin: 20rpx 0 10rpx 0;
+  font-size: 36rpx;
+  color: #000;
+}
+.uLike-film .original-name {
+  margin-bottom: 6rpx;
+  font-size: 28rpx;
+}
+.uLike-film .tags {
+  margin-bottom: 6rpx;
+  font-size: 28rpx;
+  color: #999;
+}
+.uLike-film .time {
+  font-size: 28rpx;
+  color: #999;
+}
+

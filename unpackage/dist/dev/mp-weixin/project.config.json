@@ -1,0 +1,49 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.4",
+	"appid": "touristappid",
+	"projectname": "uniapp-superhero",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"name": "index",
+					"id": 0,
+					"pathName": "pages/index/index"
+				},
+				{
+					"name": "search",
+					"id": 1,
+					"pathName": "pages/search/search"
+				},
+				{
+					"name": "me",
+					"id": 2,
+					"pathName": "pages/me/me"
+				}
+			]
+		}
+	}
+}
