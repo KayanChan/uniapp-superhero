@@ -79,7 +79,7 @@
         }
       }
     },
-    "arguments": "{\"name\":\"index\",\"id\":0,\"pathName\":\"pages/index/index\"}",
+    "arguments": "{\"name\":\"login\",\"id\":3,\"pathName\":\"pages/login/login\"}",
     "allowsInlineMediaPlayback": true,
     "safearea": {
       "background": "#FFFFFF",
@@ -94,10 +94,7 @@
     "secondwebview": {
       "id": "1",
       "launch_path": "__uniappview.html",
-      "kernel": "WKWebview",
-      "mode": "child",
-      "top": 0,
-      "bottom": 56
+      "kernel": "WKWebview"
     }
   }
 }

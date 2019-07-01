@@ -4,7 +4,7 @@
 		<view class="user">
 			<image class="avatar" src="../../static/default_avatar.jpg" mode="scaleToFill"></image>
 			<view class="info">
-				<text>注册/登录</text>
+				<text @click="gotoLogin()">登录账号</text>
 			</view>
 		</view>
 	</view>
@@ -18,7 +18,11 @@
 			}
 		},
 		methods: {
-			
+			gotoLogin () {
+                uni.redirectTo({
+                    url: '/pages/login/login'
+                });
+            }
 		}
 	}
 </script>

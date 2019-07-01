@@ -2,7 +2,10 @@
   "pages": [
     "pages/index/index",
     "pages/search/search",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/detail/detail"
   ],
   "subPackages": [],
   "window": {

@@ -7743,6 +7743,23 @@ createApp(app).$mount();
 
 /***/ }),
 
+/***/ "E:\\HBuilderProjects\\uniapp-superhero\\main.js?{\"page\":\"pages%2Fdetail%2Fdetail\"}":
+/*!***************************************************************************************!*\
+  !*** E:/HBuilderProjects/uniapp-superhero/main.js?{"page":"pages%2Fdetail%2Fdetail"} ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\HBuilderProjects\\uniapp-superhero\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _detail = _interopRequireDefault(__webpack_require__(/*! ./pages/detail/detail.vue */ "E:\\HBuilderProjects\\uniapp-superhero\\pages\\detail\\detail.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_detail.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
 /***/ "E:\\HBuilderProjects\\uniapp-superhero\\main.js?{\"page\":\"pages%2Findex%2Findex\"}":
 /*!*************************************************************************************!*\
   !*** E:/HBuilderProjects/uniapp-superhero/main.js?{"page":"pages%2Findex%2Findex"} ***!
@@ -7760,6 +7777,23 @@ createPage(_index.default);
 
 /***/ }),
 
+/***/ "E:\\HBuilderProjects\\uniapp-superhero\\main.js?{\"page\":\"pages%2Flogin%2Flogin\"}":
+/*!*************************************************************************************!*\
+  !*** E:/HBuilderProjects/uniapp-superhero/main.js?{"page":"pages%2Flogin%2Flogin"} ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\HBuilderProjects\\uniapp-superhero\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _login = _interopRequireDefault(__webpack_require__(/*! ./pages/login/login.vue */ "E:\\HBuilderProjects\\uniapp-superhero\\pages\\login\\login.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_login.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
 /***/ "E:\\HBuilderProjects\\uniapp-superhero\\main.js?{\"page\":\"pages%2Fme%2Fme\"}":
 /*!*******************************************************************************!*\
   !*** E:/HBuilderProjects/uniapp-superhero/main.js?{"page":"pages%2Fme%2Fme"} ***!
@@ -7773,6 +7807,23 @@ createPage(_index.default);
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
 var _me = _interopRequireDefault(__webpack_require__(/*! ./pages/me/me.vue */ "E:\\HBuilderProjects\\uniapp-superhero\\pages\\me\\me.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_me.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "E:\\HBuilderProjects\\uniapp-superhero\\main.js?{\"page\":\"pages%2Fregister%2Fregister\"}":
+/*!*******************************************************************************************!*\
+  !*** E:/HBuilderProjects/uniapp-superhero/main.js?{"page":"pages%2Fregister%2Fregister"} ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "E:\\HBuilderProjects\\uniapp-superhero\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _register = _interopRequireDefault(__webpack_require__(/*! ./pages/register/register.vue */ "E:\\HBuilderProjects\\uniapp-superhero\\pages\\register\\register.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_register.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
 
 /***/ }),

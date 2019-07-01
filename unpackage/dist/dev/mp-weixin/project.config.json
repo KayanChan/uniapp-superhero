@@ -26,7 +26,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 3,
 			"list": [
 				{
 					"name": "index",
@@ -42,6 +42,11 @@
 					"name": "me",
 					"id": 2,
 					"pathName": "pages/me/me"
+				},
+				{
+					"name": "login",
+					"id": 3,
+					"pathName": "pages/login/login"
 				}
 			]
 		}

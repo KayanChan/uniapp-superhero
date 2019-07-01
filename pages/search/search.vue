@@ -28,7 +28,7 @@
 <style lang="less">
 	@import "../../common/base.less";
 	.search-bar {
-		margin: 10upx 20upx 100upx 20upx;
+		margin: 20upx 20upx 100upx 20upx;
 		padding: 10upx 20upx;
 		background-color: aliceblue;
 		border-radius: 10upx;

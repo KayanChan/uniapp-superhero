@@ -1,0 +1,91 @@
+.login-wrapper {
+  padding: 80rpx 48rpx 48rpx;
+  color: #515151;
+}
+.login-wrapper ._h4 {
+  margin-bottom: 48rpx;
+  padding: 4rpx 0;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 50rpx;
+}
+.close-btn {
+  margin-bottom: 48rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-weight: bold;
+  font-size: 50rpx;
+}
+.row {
+  margin-bottom: 32rpx;
+}
+.input-bar {
+  padding: 20rpx;
+  background-color: aliceblue;
+  border-radius: 10rpx;
+  font-size: 32rpx;
+}
+.input-bar .input-ctrl {
+  height: 60rpx;
+}
+.forget-pwd {
+  height: 36rpx;
+  line-height: 36rpx;
+  text-align: right;
+  font-size: 30rpx;
+  color: #515151;
+}
+.action {
+  margin-top: 80rpx;
+}
+.login {
+  margin-bottom: 20rpx;
+  padding: 10rpx 0;
+  background-color: #515151;
+  border-color: #515151;
+  color: #FFF;
+  font-size: 32rpx;
+}
+.register {
+  color: #515151;
+  background-color: #FFF;
+  border-color: #515151;
+  padding: 10rpx 0;
+  font-size: 32rpx;
+}
+.other-way-wrapper {
+  position: absolute;
+  bottom: 48rpx;
+  left: 0;
+  padding: 0 48rpx;
+  width: 100%;
+  height: 212rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.other-way {
+  position: relative;
+  padding-top: 40rpx;
+  margin-top: 40rpx;
+  border-top: 2rpx solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.other-way .text {
+  position: absolute;
+  top: -30rpx;
+  left: 50%;
+  height: 40rpx;
+  line-height: 40rpx;
+  background-color: #FFF;
+  width: 260rpx;
+  margin-left: -130rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+}
+.other-way .github,
+.other-way .qq {
+  display: inline-block;
+  margin: 40rpx 80rpx;
+}
+
