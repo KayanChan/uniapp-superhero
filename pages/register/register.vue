@@ -35,11 +35,15 @@
 		},
 		methods: {
             gotoLogin() {
-                uni.navigateBack({
+                uni.navigateTo({
                     url: '/pages/login/login'
                 })
             },
 			register() {
+                alert('注册成功')
+                uni.navigateTo({
+                    url: '/pages/login/login'
+                })
                 // uni.request({
                 //     method: 'POST',
                 //     url: config.domain + '/api/register',

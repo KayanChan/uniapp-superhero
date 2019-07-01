@@ -12,7 +12,7 @@
 [x] index页的渲染
 [x] index页的json数据的接入
 [x] search页的渲染
-[ ] search页的json数据的接入
-[ ] search页的搜索功能-对已有数据的filter
-[ ] 登录注册页面之间的跳转
+[x] search页的json数据的接入
+[x] search页的搜索功能-对已有数据的filter
+[x] 登录注册页面之间的跳转
 [ ] detail页的渲染

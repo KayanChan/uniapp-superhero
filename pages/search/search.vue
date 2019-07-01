@@ -2,11 +2,15 @@
 	<view class="wrapper">
 		<view class="title">搜索</view>
 		<view class="search-bar">
-			<input class="search-input" confirm-type="search" focus placeholder="请输入关键词" />
+			<input class="search-input" v-model="keyword" confirm-type="search" focus placeholder="请输入关键词" @confirm="search()"/>
 		</view>
+        <view class="sub-title" v-show="searchData.length">搜索结果</view>
+        <ul class="hot-search" v-show="searchData.length">
+        	<li v-for="(item, index) in searchData" v-bind:key="item.id"> {{ item.name }}</li>
+        </ul>
 		<view class="sub-title">热门搜索</view>
 		<ul class="hot-search">
-			<li v-for="(item, index) in searchData" v-bind:key="item.id"> {{ item.name }}</li>
+			<li v-for="(item, index) in hotData" v-bind:key="item.id"> {{ item.name }}</li>
 		</ul>
 	</view>
 </template>
@@ -16,12 +20,28 @@
 	export default {
 		data() {
 			return {
-				searchData: searchData.data.rows
+                keyword: '',
+                initData: searchData.data.rows,
+                searchData: [],
+                hotData: []
 			}
 		},
 		methods: {
-			
-		}
+            search() {
+                if(this.keyword)
+                    this.searchData = this.initData.filter(this.filterFunction)
+                else
+                    this.searchData = []
+            },
+            filterFunction(item) {
+                return (item.name.indexOf(this.keyword) > -1)
+            }
+		},
+        created() {
+            this.hotData = this.initData.filter(function(item, key) {
+                return key < 5;
+            })
+        }
 	}
 </script>
 
